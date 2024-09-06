@@ -11,13 +11,14 @@ namespace UserRegistrationApp
 
         private void OnRegisterButtonClicked(object sender, EventArgs e)
         {
+            string vorname = SurnameEntry.Text;
             string name = NameEntry.Text;
             string email = EmailEntry.Text;
             string password = PasswordEntry.Text;
             string confirmPassword = ConfirmPasswordEntry.Text;
 
             if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(email) ||
-                string.IsNullOrWhiteSpace(password) || string.IsNullOrWhiteSpace(confirmPassword))
+                string.IsNullOrWhiteSpace(password) || string.IsNullOrWhiteSpace(confirmPassword) || string.IsNullOrWhiteSpace(vorname))
             {
                 ErrorMessage.Text = "Bitte fülle alle Felder aus.";
                 ErrorMessage.IsVisible = true;

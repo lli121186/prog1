@@ -7,6 +7,9 @@
         <Label Text="Name" />
         <Entry x:Name="NameEntry" Placeholder="Gib deinen Namen ein" />
 
+        <Label Text="Vorname" />
+        <Entry x:Name="SurnameEntry" Placeholder="Gib deinen Vornamen ein" />
+        
         <Label Text="E-Mail" />
         <Entry x:Name="EmailEntry" Placeholder="Gib deine E-Mail-Adresse ein" Keyboard="Email" />
 
