@@ -1,4 +1,7 @@
-﻿namespace Prog1
+using System;
+using Microsoft.Maui.Controls;
+
+namespace UserRegistrationApp
 {
     public partial class AppShell : Shell
     {

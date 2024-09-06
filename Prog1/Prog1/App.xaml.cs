@@ -1,11 +1,10 @@
-﻿namespace Prog1
+﻿namespace UserRegistrationApp
 {
     public partial class App : Application
     {
         public App()
         {
             InitializeComponent();
-
             MainPage = new AppShell();
         }
     }
